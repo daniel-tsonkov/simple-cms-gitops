@@ -7,7 +7,7 @@ k8s/
 
 ## 🔄 GitOps Workflow
 
-1. **CI/CD Pipeline** (in `daniel-tsonkov/simple_cms`):
+1. **CI/CD Pipeline** (in `daniel-tsonkov/simple-cms`):
    - Builds and tests the application
    - Creates Docker images
    - Scans for vulnerabilities
@@ -21,7 +21,7 @@ k8s/
 ## 🚀 Deployment
 
 The application is deployed using ArgoCD. See the ArgoCD Application manifest in the main repository:
-`daniel-tsonkov/simple_cms/argocd/application.yaml`
+`daniel-tsonkov/simple-cms/argocd/application.yaml`
 
 ## 📝 Making Changes
 
@@ -56,7 +56,7 @@ ArgoCD will detect the changes and sync them to the cluster.
 
 ## 🔗 Related Repositories
 
-- **Main Application**: [daniel-tsonkov/simple_cms](https://github.com/daniel-tsonkov/simple_cms)
+- **Main Application**: [daniel-tsonkov/simple-cms](https://github.com/daniel-tsonkov/simple-cms)
 - **GitOps Repo**: [daniel-tsonkov/simple-cms-gitops](https://github.com/daniel-tsonkov/simple-cms-gitops) (this repository)
 
 ## ⚠️ Important Notes
