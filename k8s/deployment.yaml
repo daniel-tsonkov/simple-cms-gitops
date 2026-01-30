@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: ghcr.io/daniel-tsonkov/simple-cms-backend:latest
+        image: ghcr.io/daniel-tsonkov/simple-cms-backend:f5b1f12c8481fd4c2541fea993f36c17602285a9
         ports:
         - containerPort: 3000
           name: http
@@ -65,7 +65,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ghcr.io/daniel-tsonkov/simple-cms-frontend:latest
+        image: ghcr.io/daniel-tsonkov/simple-cms-frontend:f5b1f12c8481fd4c2541fea993f36c17602285a9
         ports:
         - containerPort: 80
           name: http
