@@ -32,8 +32,8 @@ Image tags in `deployment.yaml` are automatically updated by the CI/CD pipeline 
 If you need to make manual changes:
 ```bash
 # Clone the repository
-git clone https://github.com/daniel-tsonkov/simple_cms-gitops.git
-cd simple_cms-gitops
+git clone https://github.com/daniel-tsonkov/simple-cms-gitops.git
+cd simple-cms-gitops
 
 # Make your changes
 vi k8s/deployment.yaml
@@ -57,7 +57,7 @@ ArgoCD will detect the changes and sync them to the cluster.
 ## 🔗 Related Repositories
 
 - **Main Application**: [daniel-tsonkov/simple_cms](https://github.com/daniel-tsonkov/simple_cms)
-- **GitOps Repo**: [daniel-tsonkov/simple_cms-gitops](https://github.com/daniel-tsonkov/simple_cms-gitops) (this repository)
+- **GitOps Repo**: [daniel-tsonkov/simple-cms-gitops](https://github.com/daniel-tsonkov/simple-cms-gitops) (this repository)
 
 ## ⚠️ Important Notes
 
